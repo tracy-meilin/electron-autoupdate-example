@@ -1,20 +1,20 @@
 {
-    "name": "electronautoupdate",
-    "version": "0.1.10",
-    "author": "ZaninAndrea",
+    "name": "electron-updater",
+    "version": "0.1.0",
+    "author": "tracy-meilin",
     "homepage": "./",
     "description": "An example of an autoupdating electron app",
-    "repository": "https://github.com/ZaninAndrea/electron-autoupdate-example",
+    "repository": "https://github.com/tracy-meilin/electron-updater",
     "main": "electron.js",
     "dependencies": {
-        "electron-updater": "^2.10.1"
+        "electron-updater": "6.1.4"
     },
     "scripts": {
             "build": "build --win",
             "ship": "build --win -p always"
         },
     "devDependencies": {
-        "electron": "^1.7.5",
-        "electron-builder": "^19.20.1"
+        "electron": "27.0.0",
+		"electron-builder": "^24.13.3"
     }
 }
